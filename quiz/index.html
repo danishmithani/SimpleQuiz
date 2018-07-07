@@ -1,0 +1,38 @@
+<!-- refer : https://youtu.be/7ZO2RTMNSAY -->
+<html>
+	<head>
+		<title>HTML Slider</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="mystyle.css">
+        <script src="main.js"></script>
+	</head>
+	<body>
+			<h2>My First Js Coded Quiz</h2>
+			<div class="container">
+			<div id="block1" class="block">
+				<form id="quiz" name="quiz">
+					<p>In which contry do you Live?</p>
+					<input type="text" id="textbox" placeholder="USA, UK etc.." name="q1" >
+
+					<p>What is the capital of India?</p>
+					<input type="radio" class="mc" name="q2" value="Mumbai">Mumbai</br>
+					<input type="radio" class="mc" name="q2" value="Delhi">Delhi</br>
+					<input type="radio" class="mc" name="q2" value="Dombiwali">Dombiwali</br>
+
+				  	<p>What is the capital of USA?</p>
+					<input type="radio" class="mc" name="q3" value="Mumbai">Mumbai</br>
+					<input type="radio" id="correct" class="mc" name="q3" value="Delhi">Delhi</br>
+					<input type="radio" class="mc" name="q3" value="NewYork">NewYork</br>
+				  	<input type="button" id="btn" onclick="check();" value="I'm Done!">
+				</form>
+			</div>
+			<div id="block2" class="block">
+				<p id="message"></p>
+				<p id="ans-correct"></p>
+				<img id="pic">
+			</div>
+		</div>
+	</body>
+</html>
